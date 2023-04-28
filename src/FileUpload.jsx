@@ -85,7 +85,7 @@ const FileUpload = () => {
             </div>
           );
         })}
-      <button onClick={openModal}>Upload an Image</button>
+      <button onClick={openModal}>Upload an Image....</button>
       {/* <Popup open={open} closeOnDocumentClick onClose={closeModal}> */}
       <Popup open={open} onClose={closeModal}>
         <input type="file" accept="/image/*" onChange={handleChange}></input>
